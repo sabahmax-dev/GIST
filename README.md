@@ -42,7 +42,7 @@ Perform a lightweight warmup training to obtain the necessary optimizer states.
 Compute the projected gradients for both training data and the target task validation set.
 
 ```bash
-TASK="tydiqa"
+TASK="mmlu"
 MODEL="qwen2.5-1.5b"
 CKPT=422
 SEED="3"
